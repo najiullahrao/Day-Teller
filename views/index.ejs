@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day Teller</title>
+</head>
+
+<body>
+
+  <% const d=new Date(); let day=d.getDay(); if (day===0 || day===6) { %>
+    <h1>Hey! It's Weekend, It's time to have fun!😂🎉</h1>
+    <% }else { %>
+      <h1>Hey! It's WeekDay, It's time to Work Hard!💪🔥🚀</h1>
+      <% } %>
+</body>
+
+</html>
